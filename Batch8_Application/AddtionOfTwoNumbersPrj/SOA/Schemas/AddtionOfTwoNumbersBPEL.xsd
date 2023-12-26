@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://xmlns.oracle.com/Batch8_Application/AddtionOfTwoNumbersPrj/AddtionOfTwoNumbersBPEL"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="Input">
+		<complexType>
+			<sequence>
+				<element name="input1" type="string"/>
+                                <element name="input2" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="Output">
+		<complexType>
+			<sequence>
+				<element name="result" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
